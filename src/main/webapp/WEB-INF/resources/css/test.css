@@ -1,0 +1,71 @@
+@CHARSET "ISO-8859-1";
+
+h1{
+
+text-align:center;
+color:#FF0000;
+
+}
+div{
+//border: 1px solid red;
+min-height:500px;
+margin: 10px;
+}
+
+
+#div5{
+
+float:left;
+
+min-height:300px;
+min-width:300px;
+//border: 1px solid green;
+background: linear-gradient(lightgreen, yellow);
+font-size:20px;
+}
+
+#navigation_bar{
+
+min-height:10px;
+max-height:100px;
+background-color:#00FFFF;
+background: linear-gradient(red, yellow);
+}
+
+ul#nav_menu{
+list-style-type:none;
+overflow:hidden;
+}
+ul#nav_menu li{
+
+font-size:30px;
+
+float:left;
+padding:5px;
+//background-color: #dddddd;
+margin-right:50px;
+margin-left:20px;
+
+}
+
+ul#nav_menu li a{
+text-decoration:none;
+
+}
+
+#div1{
+//background-color:#00FFFF;
+}
+
+#div4{
+background-color:#00FFFF;
+background: linear-gradient(lightblue, green);
+min-height:800px;
+}
+
+#footer{
+
+transform: translate(0%, 80%);
+text-align:center;
+color: yellowgreen;
+}
